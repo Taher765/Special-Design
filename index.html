@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <!-- Add Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add Font Awesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Add Bootstart -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Add Custom Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- START NAVIGATION BULLETS -->
+      <div class="bullets" id="bullets">
+        <ul class="navigation-bullets">
+          <li class="bullet" data-section="home"><span>Home</span></li>
+          <li class="bullet" data-section="about"><span>About</span></li>
+          <li class="bullet" data-section="our-skills">
+            <span>Oue Skills</span>
+          </li>
+          <li class="bullet" data-section="gallery">
+            <span>Gallery</span>
+          </li>
+        </ul>
+      </div>
+      <!-- START SETTING  -->
+      <div class="setting">
+        <h4 class="title text-center">Settings Option</h4>
+        <!-- Open Setting -->
+        <div class="setting-box">
+          <i id="btn-gear" class="fa-solid fa-gear"></i>
+        </div>
+        <!-- Start Change Color -->
+        <div class="option-box py-3">
+          <h5 class="option-box-title text-center mb-3">CHANGE COLORS</h5>
+          <ul class="color-list">
+            <li class="color active" data-color="#ffc107"></li>
+            <li class="color" data-color="#0d6efd"></li>
+            <li class="color" data-color="#dc3545"></li>
+            <li class="color" data-color="#198754"></li>
+            <li class="color" data-color="#0dcaf0"></li>
+          </ul>
+        </div>
+        <!-- START RANDOM BACKGROUND -->
+        <div class="option-box py-3">
+          <h5 class="text-center option-box-title">Stop Random Background</h5>
+          <div class="btn-random-background text-center">
+            <button class="true btn-random active me-2">YES</button>
+            <button class="false btn-random">NO</button>
+          </div>
+        </div>
+        <!-- START Display & Hide Navigation Bullets -->
+        <div class="option-box py-3">
+          <h5 class="text-center option-box-title">Stop Navigtion Bullets</h5>
+          <div class="box-nav-bullets text-center">
+            <button data-bullet="yes" class="nav-bullet active me-2">
+              YES
+            </button>
+            <button data-bullet="no" class="nav-bullet">NO</button>
+          </div>
+        </div>
+
+        <!-- //START RESET SETTING -->
+        <div class="reset mt-3">
+          <button class="btn w-100" id="reset">RESET</button>
+        </div>
+      </div>
+      <!-- START HEADER -->
+      <header id="home">
+        <!-- START NAVBER -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Special Design</a>
+            <button
+              class="navbar-toggler text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    data-section="#home"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    data-section="#about"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-section="#our-skills" href="#"
+                    >Skills</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-section="#gallery" href="#"
+                    >Gallery</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--// END NAVBER -->
+        <!-- START LANDING -->
+        <div class="container-fiuld">
+          <div class="landing">
+            <div class="text">
+              <h1>We Are <span>Creative</span> Agency</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequuntur placeat fugiat pariatur cupiditate numquam
+                sapiente?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END LANDING -->
+      </header>
+      <!-- START ABOUT -->
+      <section class="about py-5" id="about">
+        <div class="container">
+          <h2 class="section-heading">about</h2>
+          <div class="row">
+            <div class="col-md-7">
+              <p class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                dicta aspernatur ad explicabo, itaque velit nemo fugiat, aliquam
+                animi labore quae. Quo repellendus soluta nostrum commodi
+                recusandae iusto expedita inventore.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <img class="w-100" src="images/01.jpg" alt="About" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- START OUR SKILLS -->
+      <section class="our-skills py-5" id="our-skills">
+        <div class="container">
+          <h2 class="section-heading">our skills</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="desc mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                molestiae natus vel delectus dignissimos repudiandae voluptas
+                quam praesentium vitae id. Itaque repellat aut adipisci labore
+                optio rerum aliquid inventore neque.
+              </p>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                molestiae natus vel delectus dignissimos repudiandae voluptas
+                quam praesentium vitae id. Itaque repellat aut adipisci labore
+                optio rerum aliquid inventore neque.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-item mb-4">
+                <h5>HTML</h5>
+                <div class="progress overflow-visible">
+                  <div
+                    class="progress-bar overflow-visible"
+                    data-progress="90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress-item mb-4">
+                <h5>CSS</h5>
+                <div class="progress overflow-visible">
+                  <div
+                    class="progress-bar overflow-visible"
+                    data-progress="80%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress-item mb-4">
+                <h5>JS</h5>
+                <div class="progress overflow-visible">
+                  <div
+                    class="progress-bar overflow-visible"
+                    data-progress="90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress-item mb-4">
+                <h5>Bootstrap</h5>
+                <div class="progress overflow-visible">
+                  <div
+                    class="progress-bar overflow-visible"
+                    data-progress="80%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- START GALLERY -->
+      <section class="gallery py-5" id="gallery">
+        <div class="container">
+          <h2 class="section-heading">gallery</h2>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/01.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/02.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/03.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/04.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/01.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/02.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/03.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="gallery-img">
+                <img class="w-100" src="images/04.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //END WRAPPER -->
+    </div>
+    <!-- START JA FILES -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
